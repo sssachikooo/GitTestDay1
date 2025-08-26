@@ -9,3 +9,5 @@ Git専科
 リモートリポジトリ！
 
 これ出来てるの？？？
+
+git push origin masterは毎回やらないとダメなのか？
