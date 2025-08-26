@@ -1,8 +1,6 @@
 Git専科
 
-▼１コマ目の内容
-
-Git Bash のコマンド
+▼Git Bash のコマンド
 
 # Gitの監視下に置く
 git init
@@ -12,9 +10,20 @@ git status
 
 # 変更内容をステージに上げる
 git add ファイル名
+git add . ←「.」で変更された全ファイルが対象になる
 
 # コミット作成
 git commit -m "コミットメッセージ"
 
 # コミットログの表示
 git log
+
+# 差分の確認
+git diff
+
+# addを取り消す
+git reset HEAD ファイル名
+
+# コミットメッセージの編集
+git commit --amend
+※VSCodeが立ち上がらなければ、「i」と打つとINSERTモードになり変更可能となる。変更後に「wq」と打つと書き込み（writeとquit）される。
